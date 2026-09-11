@@ -1,0 +1,14 @@
+###################################################################################################
+# tw-mod-corpse-respawn module configuration
+###################################################################################################
+
+[CorpseRespawn]
+
+# Enables respawning the player's ghost at their corpse location after releasing spirit.
+# Set to 0 to disable and use the default graveyard behavior.
+CorpseRespawn.Enable = 1
+
+# When enabled, players who release spirit inside dungeons and raids will use the
+# default graveyard respawn instead of being teleported to their corpse.
+# Set to 1 to disable corpse-respawn in instances.
+CorpseRespawn.DisableInInstances = 0
